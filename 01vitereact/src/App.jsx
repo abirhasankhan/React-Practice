@@ -1,9 +1,13 @@
-
+import Tea from './Tea.jsx'
 function App() {
 
     return (
 
-        <h1>Hello World! || learn react || abir</h1>
+        <>
+
+            <Tea />
+            <h1>hello world</h1>
+        </>
 
     )
 }
