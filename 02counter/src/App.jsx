@@ -9,13 +9,27 @@ function App() {
 
   //let counter = 0;
 
+  /**
+   * Function to add a value to the counter
+   */
   const addValue = () => {
 
     if (counter >= 20) return;
-
+    
     counter = counter + 1;
-
     setCounter(counter);
+
+    // /**
+    //  * Update the counter in the state
+    //  * This is done by calling the setCounter function
+    //  * The setCounter function takes a callback function as an argument
+    //  * This callback function takes the previous value of the counter as an argument
+    //  * The callback function returns the new value of the counter
+    //  */
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);    
+    // setCounter((prevCounter) => prevCounter + 1);
+    // setCounter((prevCounter) => prevCounter + 1);
     
     console.log("clicked ",counter);
 
