@@ -1,12 +1,12 @@
 
 # React Practice Project
 
-This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, and a React Router app. I used **Vite** as the build tool to enhance performance and streamline the development process.
+This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, a React Router app, and a React Context app. I used **Vite** as the build tool to enhance performance and streamline the development process.
 
 ## Features
 
 - **Basic Counter App**: A simple app where users can increment, decrement, and reset a counter. This project helped me understand React fundamentals, including state management and event handling.
-  
+
 - **Tailwind CSS**: Integrated Tailwind CSS for fast, responsive UI design.
 
 - **Custom React App**: Created a more advanced React app to practice concepts like component reusability, props, hooks, and state management.
@@ -19,12 +19,15 @@ This project showcases my journey of learning React by building a basic counter 
 
 - **React Router App**: Developed an app using **React Router** to practice client-side routing and navigation between different pages or views without reloading the page. This helped me understand how to implement dynamic routing, nested routes, and create a multi-page user experience in a single-page React application.
 
+- **React Context App**: Implemented a React Context app to learn how to manage global state across multiple components. This project helped me understand how to use the `useContext` and `useReducer` hooks to create a more scalable state management solution for applications with multiple components that need to share data.
+
 ## Tech Stack
 
 - **React.js**: Core framework for building dynamic and interactive UIs.
 - **Vite**: Used for faster builds and a smoother development experience.
 - **Tailwind CSS**: Used for fast, responsive styling.
 - **React Router**: Implemented for client-side routing and navigation.
+- **React Context**: Used for global state management across multiple components.
 
 ## Getting Started
 
@@ -49,7 +52,7 @@ To run the project locally with Vite, follow these steps:
 
 ## Lessons Learned
 
-- Understanding React's component structure and managing state with hooks like `useState`, `useEffect`, `useCallback`, and `useId`.
+- Understanding React's component structure and managing state with hooks like `useState`, `useEffect`, `useCallback`, `useId`, and `useContext`.
 - Styling efficiently with Tailwind CSS.
 - Using **Vite** for faster builds and a smoother development experience.
 - Building reusable and maintainable React components.
@@ -57,3 +60,5 @@ To run the project locally with Vite, follow these steps:
 - Creating a dynamic password generator with form input handling and state updates.
 - Learning to build and use **custom hooks** for reusable functionality, like managing state and effects in the currency converter app.
 - Gaining hands-on experience with **React Router** to implement routing in single-page applications, including dynamic and nested routes.
+- Understanding and implementing **React Context** for global state management across multiple components, making it easier to manage complex data flows in larger applications.
+
