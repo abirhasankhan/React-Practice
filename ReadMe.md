@@ -1,7 +1,6 @@
-
 # React Practice Project
 
-This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, a React Router app, and a React Context app. I used **Vite** as the build tool to enhance performance and streamline the development process.
+This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, a React Router app, a React Context app, and a Theme Switcher app. I used **Vite** as the build tool to enhance performance and streamline the development process.
 
 ## Features
 
@@ -20,6 +19,8 @@ This project showcases my journey of learning React by building a basic counter 
 - **React Router App**: Developed an app using **React Router** to practice client-side routing and navigation between different pages or views without reloading the page. This helped me understand how to implement dynamic routing, nested routes, and create a multi-page user experience in a single-page React application.
 
 - **React Context App**: Implemented a React Context app to learn how to manage global state across multiple components. This project helped me understand how to use the `useContext` and `useReducer` hooks to create a more scalable state management solution for applications with multiple components that need to share data.
+
+- **Theme Switcher App**: Created a Theme Switcher app to allow users to toggle between light and dark modes. This project helped me understand how to manage state for theming purposes and how to dynamically apply styles based on the current theme, improving the user experience by offering customization options.
 
 ## Tech Stack
 
@@ -61,4 +62,22 @@ To run the project locally with Vite, follow these steps:
 - Learning to build and use **custom hooks** for reusable functionality, like managing state and effects in the currency converter app.
 - Gaining hands-on experience with **React Router** to implement routing in single-page applications, including dynamic and nested routes.
 - Understanding and implementing **React Context** for global state management across multiple components, making it easier to manage complex data flows in larger applications.
+- Building a **Theme Switcher App** that provides light/dark mode toggle functionality, enhancing user experience with customizable UI themes.
 
+---
+
+# For dark mode remember to change config in tailwind
+```
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
