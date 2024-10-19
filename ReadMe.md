@@ -1,6 +1,6 @@
 # React Practice Project
 
-This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, a React Router app, a React Context app, and a Theme Switcher app. I used **Vite** as the build tool to enhance performance and streamline the development process.
+This project showcases my journey of learning React by building a basic counter app, exploring Tailwind CSS, creating custom React applications, and developing interactive projects like a background change app, a password generator app, a currency converter app using custom hooks, a React Router app, a React Context app, a Todo App with Context and local storage, and a Theme Switcher app. I used **Vite** as the build tool to enhance performance and streamline the development process.
 
 ## Features
 
@@ -20,6 +20,8 @@ This project showcases my journey of learning React by building a basic counter 
 
 - **React Context App**: Implemented a React Context app to learn how to manage global state across multiple components. This project helped me understand how to use the `useContext` and `useReducer` hooks to create a more scalable state management solution for applications with multiple components that need to share data.
 
+- **Todo App with Context and Local Storage**: Built a Todo app that uses React Context for managing global state and local storage for persisting tasks. This project helped me practice building a scalable to-do list that retains tasks even after a page reload.
+
 - **Theme Switcher App**: Created a Theme Switcher app to allow users to toggle between light and dark modes. This project helped me understand how to manage state for theming purposes and how to dynamically apply styles based on the current theme, improving the user experience by offering customization options.
 
 ## Tech Stack
@@ -29,6 +31,7 @@ This project showcases my journey of learning React by building a basic counter 
 - **Tailwind CSS**: Used for fast, responsive styling.
 - **React Router**: Implemented for client-side routing and navigation.
 - **React Context**: Used for global state management across multiple components.
+- **Local Storage**: Integrated for data persistence in the Todo app.
 
 ## Getting Started
 
@@ -62,6 +65,7 @@ To run the project locally with Vite, follow these steps:
 - Learning to build and use **custom hooks** for reusable functionality, like managing state and effects in the currency converter app.
 - Gaining hands-on experience with **React Router** to implement routing in single-page applications, including dynamic and nested routes.
 - Understanding and implementing **React Context** for global state management across multiple components, making it easier to manage complex data flows in larger applications.
+- Building a **Todo App** with **Context and Local Storage** to practice global state management and persistent data storage.
 - Building a **Theme Switcher App** that provides light/dark mode toggle functionality, enhancing user experience with customizable UI themes.
 
 ---
